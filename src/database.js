@@ -11,7 +11,7 @@ class BataBase {
   };
 
   connect() {
-    MongoClient.connect(this.url, (err, client) => {
+    MongoClient.connect(this.url, { useNewUrlParser: true }, (err, client) => {
       if (err) throw err;
       this.dataBase = client.db(this.dataBaseName);
     });
