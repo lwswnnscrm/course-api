@@ -119,6 +119,10 @@ router.get('/product/:id', (req, res) => {
   });
 });
 
+router.get('/', (req, res) => {
+  return res.status(200).json({ status: 'ok' });
+});
+
 app.use('/', router);
 
 app.listen(port);

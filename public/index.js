@@ -142,5 +142,10 @@ router.get('/product/:id', function (req, res) {
     return res.status(200).json(data);
   });
 });
+router.get('/', function (req, res) {
+  return res.status(200).json({
+    status: 'ok'
+  });
+});
 app.use('/', router);
 app.listen(port);
