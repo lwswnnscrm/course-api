@@ -9,7 +9,8 @@
     "lint": "eslint ./src/index.js",
     "lintfix": "eslint ./src/index.js --fix",
     "dev": "nodemon ./src/index.js --exec babel-node",
-    "start": "node ./public/index"
+    "start": "node ./public/index",
+    "heroku-postbuild": "npm run start"
   },
   "heroku-run-build-script": true,
   "author": "",
