@@ -9,7 +9,7 @@
     "lint": "eslint ./src/index.js",
     "lintfix": "eslint ./src/index.js --fix",
     "dev": "nodemon ./src/index.js --exec babel-node",
-    "start": "node ./public/index",
+    "start": "node ./public/index"
   },
   "author": "",
   "license": "ISC",
