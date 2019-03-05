@@ -2,7 +2,7 @@
   "name": "pkg",
   "version": "1.0.0",
   "description": "node-pkg",
-  "main": "index.js",
+  "main": "./public/index.js",
   "scripts": {
     "test": "mocha -R spec test/environment.js test/unit/*-test.js --compilers js:@babel/register",
     "build": "babel src -d public",
