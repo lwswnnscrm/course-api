@@ -11,10 +11,7 @@
     "dev": "nodemon ./src/index.js --exec babel-node",
     "start": "node ./public/index"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.teamc.io/teamc.io/microservice/configuration/node-pkg.git"
-  },
+  "heroku-run-build-script": true,
   "author": "",
   "license": "ISC",
   "dependencies": {
